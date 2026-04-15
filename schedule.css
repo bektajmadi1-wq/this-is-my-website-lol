@@ -1,0 +1,110 @@
+    body{
+   font-family: "Trebuchet MS", sans-serif;
+   background-color: #1e1b4b;
+   border: 5px solid #FACC15;
+   border-radius: 20px;
+   margin: 40px;
+   padding: 40px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: centers;
+   min-height: 100vh;
+   flex-direction: column;
+   color: #FACC15;
+   box-shadow: 0 0 30px #FACC15;
+   }
+    
+    h3{
+        color: #FACC15;
+        font-size: 28px;
+        margin-bottom: 30px;
+        text-shadow: 0 0 15px #ffef08;
+    }
+
+    
+    header{
+        color: #FACC15;
+      background-color: #1e1b4b;
+        padding: 20px;
+    }
+
+    header a{
+        color: #FACC15;
+        background-color: #1e1b4b;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 20px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: 0.3;
+    }
+
+    .time{
+        color: #FACC15;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        font-weight: bold;
+        box-shadow: 0 0 20px gold;
+        transition: 0.3s;
+    }
+
+    .time:hover{
+        text-shadow: 0 0 20px #FACC15,0 0 40px goldenrod;
+    }
+
+    .schedule{
+        background-color: #1e1b4b;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-collapse: collapse;
+        color: white;
+        font-size: 18px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px gold;
+        transition: 0.3;
+        padding: 20px;
+    }
+
+    .schedule caption{
+        color: gold;
+        font-size: 22px;
+        margin-bottom: 15px;
+        text-shadow: 0 0 15px gold;
+    }
+
+    .lesson td {
+        color: #FACC15;
+        text-align: center;
+        padding: 10px 20px;
+        margin: 10px 0;
+        border-radius: 15px;
+        width: 400px;
+        display: flex;
+        justify-content:space-between;
+        cursor: pointer;
+        font-weight: bold;
+        box-shadow: 0 0 20px gold;
+        transition: 0.3s;
+    }
+
+    .lesson td:hover{
+        text-shadow: 0 0 20px #FACC15, 0 0 40px goldenrod;
+    }
+
+    .lesson .time{
+        text-align: left;
+        width: 30%;
+    }
+    header a:hover{
+  background-color: #1e1b4b;
+  color: gold;
+  box-shadow: 0 0 15px #ffef08;
+  transform: scale(1.03s);
+}

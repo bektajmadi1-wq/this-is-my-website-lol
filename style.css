@@ -1,0 +1,203 @@
+body{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-color: #1e1b4b;
+   margin: 0;
+   padding: 40px;
+   text-align: center;
+   color: #FACC15;
+   box-shadow: 0 0 30px #FACC15;
+}
+h1{
+  background-color: #6B21A8;
+  font-family: Arial, sans-serif;
+  padding: 90px;
+  border-radius: 14px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 0 10px #FACC15;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+    header{
+        color: #FACC15;
+      background-color: #1e1b4b;
+        padding: 20px;
+    }
+
+    header a{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #FACC15;
+        background-color: #1e1b4b;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 20px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: 0.3;
+    }
+
+p{
+    color: #FACC15;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.magic{
+    background: rgba(30,27,75,0.s8);
+    border:2px solid #6B21A8;
+    color: #FACC15;
+    text-shadow: 0 0 10px #FACC15,0 0 20px #6B21A8;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 30px;
+    display: inline-block;
+      cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+audio {
+  width:300px;
+}
+
+.otvet{
+   background-color: #6B21A8;
+   color: #FACC15;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 15px;
+   margin: 10px;
+  border-radius: 15px;
+   display: flex;
+   justify-content: center;
+     cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 25px gold;
+    transition: 0.3s;
+}
+
+.otvet{
+        color:#FACC15
+    }
+
+    input[type="text"]{
+        background-color: #6B21A8;
+        font-size: 20px;
+        color: #FACC15;
+        margin: 5px 10px;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        min-width: 250px ;
+    }
+
+     input[type="number"]{
+        background-color: #6B21A8;
+         font-size: 18px;
+            color: #FACC15;
+        margin: 5px 10px;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+      input[type="text"]{
+        background-color: #6B21A8;
+         font-size: 18px;
+            color: #FACC15;
+        margin: 5px 10px;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5px;
+          cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    }
+
+    
+input{
+  padding: 10px;
+  border: 2px solid #6B21A8;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  background: #1e1b4b;
+  color: yellow;
+  margin-bottom: 15px;
+}
+
+input:focus {
+  border-color: gold;
+  box-shadow: 0 0 10px yellow;
+}
+
+    button {
+  background: #1e1b4b;
+  color: yellow;
+  border: #6B21A8;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: gold;
+  color: #1e1b4b;
+  box-shadow: 0 0 15px yellow;
+  transform: scale(1.05);
+}
+
+.btn {
+    background: #FACC15;
+    font-family: Arial, sans-serif;
+    color: #FDE047;
+    border: #6B21A8;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+footer {
+  background: #1e1b4b;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #ffef08;
+}
+
+footer a {
+  color: violet;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-shadow: 0 0 8px yellow;
+}
+
+.btn:hover {
+    background: #1e1b4b;
+    transform: scale(1.05);
+}
+
+.MagicWorld{
+  height: 600px ;
+}
+
+.otvet:hover {
+  box-shadow: 0 0 10px yellow;
+  transform: scale(1.05);
+}
+
+header a:hover{
+  background-color: #1e1b4b;
+  color: gold;
+  box-shadow: 0 0 15px #ffef08;
+  transform: scale(1.03s);
+}
